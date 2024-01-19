@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gasskeun</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=beVietnam-pro@400,301,701,101,401,600,900,501,601,500,901,700,300,801,201,100,800,200,2,1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+  <header>
+    <!-- Navbar -->
+    <nav class="relative">
+      <div class="fixed top-0 left-0 right-0">
+        <div class="navbar shadow-md min-h-1 text-white">
+          <div class="w-4/5 mx-auto justify-between">
+            <div>
+              <span class="font-bold lg:text-2xl">gasskeun</span>
+            </div>
+            <div class="hidden md:block">
+              <ul class="menu menu-horizontal p-0 text-xs font-extralight lg:text-sm 2xl:gap-8">
+                <li><a>Country</a></li>
+                <li><a>Tour</a></li>
+                <li><a>Gallery</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+              </ul> 
+            </div>
+            <div class="dropdown dropdown-end md:hidden">
+              <div tabindex="0" role="button" class="m-1">
+                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0.0299988V2.03H16V0.0299988H0ZM0 5.97V7.97H16V5.97H0ZM0 11.97V13.97H16V11.97H0Z" fill="white" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-md w-42 text-xs bg-slate-800">
+                <li><a>Country</a></li>
+                <li><a>Tour</a></li>
+                <li><a>Gallery</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero min-h-screen"
+      style="background-image: url(https://images.unsplash.com/photo-1619880889144-d6e252999afa?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md md:max-w-2xl lg:max-w-3xl 2xl:max-w-5xl">
+          <h1 class="mb-5 text-base font-light lg:text-xl 2xl:text-2xl">Hello there...</h1>
+          <p class="mb-5 text-5xl font-extrabold md:text-6xl lg:text-7xl 2xl:text-8xl">EXPLORE TOURISM IN A WONDERFULL WORLD</p>
+          <button class="btn bg-slate-800 text-xs font-light h-6 min-h-1 px-2 rounded-md md:h-8 md:text-base lg:text-xl lg:px-3 2xl:text-2xl 2xl:h-10">Explore Now</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+</body>
+</html>
